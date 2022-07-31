@@ -1,0 +1,28 @@
+body{
+	background: linear-gradient(90deg,#be8cef 0%,rgba(61,46,232,1)100%);
+    font-family: times new roman;
+    margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 0px;
+	margin-right: 0px;
+	word-spacing: 4px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+section{
+    display: grid;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px
+}
+
+#a1{
+	color: red;
+}
+
+hr{
+	color: aliceblue;
+}
+

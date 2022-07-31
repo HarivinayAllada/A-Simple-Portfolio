@@ -1,0 +1,81 @@
+body{
+	background: linear-gradient(90deg,#be8cef 0%,rgba(61,46,232,1)100%);
+    font-family: times new roman;
+    
+
+}
+.content input[type=text],textarea{
+	width: 100%;
+	padding: 5px 5px;
+	border: 1px solid;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 5px;
+	resize: vertical;
+	font-family: times new roman;
+}
+
+.content input[type=submit]{
+	background-color: black;
+	color: white;
+	padding: 7px;
+	border-radius: 4px;
+    cursor: pointer;
+    width: 49%;
+    font-family: times new roman;
+    font-size: 16px;
+}
+
+.content input[type=reset]{
+	background-color: black;
+	color: white;
+	padding: 7px;
+	border-radius: 4px;
+    cursor: pointer;
+    width: 49%;
+
+    font-family: times new roman;
+    font-size: 16px;    
+}
+
+input[type=submit]:hover{
+	background: linear-gradient(to right,#3333ff,#d699ff);
+	color: black;
+}
+
+input[type=reset]:hover{
+	background: linear-gradient(to left,#3333ff,#d699ff);
+	color: black;
+}
+
+form{
+	border-radius: 5px;
+	background-color: whitesmoke;
+	padding:20px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 50px;
+	margin-left: 50px;
+
+}
+
+.fa-whatsapp{
+	color: green;
+}
+
+.fa-instagram{
+	color: #990099;
+}
+
+.fa-phone{
+	color: darkblue;
+}
+
+.fa-facebook{
+	color: blue;
+}
+footer{
+	text-align: center;
+	font-size: 10px;
+}	
